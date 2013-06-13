@@ -39,9 +39,15 @@ Human.php
 
 	class Human
 	{
+		/** @var string */
 		public $gender
-		private $
+
+		/** @var string */
+		private $nickname
 		
+		/**
+		 * @return string
+		 */
 		public function getGenderNickname()
 		{
 			return $this->gender . ' ' . $this->nickname;
