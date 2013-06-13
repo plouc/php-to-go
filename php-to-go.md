@@ -8,13 +8,14 @@ Human.php
     <?php
 	class Human
 	{
+		/** @var string */
 		public $gender
+
+		/** @var string */
 		private $nickname
 	}
 
 human.go
-
-	human.go
 
 	type Human stuct {
     	Gender   string
